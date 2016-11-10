@@ -451,6 +451,16 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
+    <script>
+      $(function () {
+        var i = 0;
+        var ings = ['Aspiring', 'Perspiring', 'Aspiring', 'Respiring', 'Aspiring', 'Inspiring', 'Aspiring', 'Conspiring'];
+        setInterval(function () {
+          $('.intro-message h3').text(ings[i++] + ' Web Developer');
+          i %= ings.length;
+        }, 3000);
+      })
+    </script>
 </body>
 
 </html>
