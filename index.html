@@ -1,11 +1,458 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+
+<!-- Based on https://github.com/BlackrockDigital/startbootstrap-landing-page.git -->
+
+<head>
+
     <meta charset="utf-8">
-    <title>That Michael Park</title>
-  </head>
-  <body>
-    <h1>That Michael Park</h1>
-    <img src="undulatingjigsawpuzzle1.gif" alt="Undulating Jigsaw Puzzle" />
-  </body>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Michael Park</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/landing-page.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style media="screen">
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            padding-top: 35px;
+            height: 0;
+            overflow: hidden;
+        }
+        .video-container iframe {
+            position: absolute;
+            top:0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand topnav" href="#">Michael Park</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <!-- Header -->
+    <div class="intro-header">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1><em>That</em> Michael Park</h1>
+                        <h3>Aspiring Web Developer</h3>
+                        <hr class="intro-divider">
+                        <ul class="list-inline intro-social-buttons">
+                            <li>
+                                <a href="mailto:thatmichaelpark@gmail.com" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw"></i> <span class="network-name">Email</span></a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/thatmichaelpark" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/thatmichaelpark" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.intro-header -->
+
+    <a name="about"></a>
+    <div class="content-section-b">
+      <div class="container">
+        <h1 class="section-heading">About Michael Park</h1>
+        <p class="lead">
+          I'm a web developer with a BS in computer science.
+        </p>
+        <p class="lead">
+          I am comfortable with HTML, CSS, JavaScript, jQuery, Angular, React, Node, Express, PostgreSQL, and other technologies.
+        </p>
+        <ul class="lead">
+          <li>
+            <a href="resume-MichaelPark (3).pdf">Download resume (PDF)</a>.
+          </li>
+        </ul>
+        <p class="lead">
+          Here are some of my more interesting projects:
+        </p>
+      </div>
+    </div>
+
+
+    <!-- Page Content -->
+
+	  <a  name="projects"></a>
+
+    <div class="content-section-a">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Undulating Jigsaw Puzzles</h2>
+                    <p class="lead">
+                        In these puzzles, the pieces have undulating edges.
+                        <a href="https://thatmichaelpark-nqj.herokuapp.com">Play puzzle</a>.
+                    </p>
+                    <p>
+                        HTML/CSS/JavaScript. React. Node. Express. PostgreSQL.
+                    </p>
+                    <p>
+                        <a href="https://github.com/thatmichaelpark/undulating-jigsaw-puzzle"><i class="fa fa-github fa-lg"></i></a>
+                    </p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <div class="video-container">
+                        <iframe width="480" height="296" src="https://www.youtube.com/embed/RrGJ9eWP-EI" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.content-section-a -->
+
+    <div class="content-section-b">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Undulating Jigsaw Puzzle Editor</h2>
+                    <p class="lead">
+                        A desktop application for editing undulating jigsaw puzzles.
+                    </p>
+                    <p>
+                        HTML/CSS/JavaScript. Angular. Node. Electron.
+                    </p>
+                    <p>
+                        <a href="https://github.com/thatmichaelpark/undulating-jigsaw-editor"><i class="fa fa-github fa-lg"></i></a>
+                    </p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <div class="video-container">
+                        <iframe width="480" height="296" src="https://www.youtube.com/embed/ygPgN7u37EM" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.content-section-b -->
+
+    <div class="content-section-a">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Baobab:<br>Family Tree Viewer</h2>
+                    <p class="lead">Keep track of relatives near and distant.</p>
+                    <p>HTML/CSS/JavaScript. jQuery. Node. Express. PostgreSQL.</p>
+                    <p>
+                        <a href="https://github.com/thatmichaelpark"><i class="fa fa-github fa-lg"></i></a>
+                    </p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="img/baobab.png" alt="Baobab family tree">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.content-section-a -->
+
+    <div class="content-section-b">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Beets:<br>Multi-user Drum Machine</h2>
+                    <p class="lead">Collaborative beat-making in your web browser.</p>
+                    <p>HTML/CSS/JavaScript. React. Web Audio. Socket.io. Node. Express. PostgreSQL.</p>
+                    <p>
+                        <a href="https://github.com/thatmichaelpark"><i class="fa fa-github fa-lg"></i></a>
+                    </p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.content-section-b -->
+
+    <div class="content-section-a">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Sliding Tile Puzzle</h2>
+                    <p class="lead">
+                        Sliding tile puzzle with pictures provided by the Flickr API.
+                        <a href="http://thatmichaelpark-sliding-puzzle.surge.sh/#!">Play puzzle</a>.
+                    </p>
+                    <p>HTML/CSS/JavaScript. jQuery.</p>
+                    <p>
+                        <a href="https://github.com/thatmichaelpark/sliding-tile-puzzle"><i class="fa fa-github fa-lg"></i></a>
+                    </p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="img/slidingtilepuzzle.png" alt="Sliding Tile Puzzle" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.content-section-a -->
+
+    <div class="content-section-b">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Battle-Z1</h2>
+                    <p class="lead">
+                        Multiplayer tank game with Battlezone-inspired graphics. Optional Arduino-powered analog control sticks.
+                    </p>
+                    <p>HTML/CSS/JavaScript. Socket.io. Node. Express. Johnny-Five. Arduino.</p>
+                    <p>
+                        <a href="https://github.com/thatmichaelpark/battle-z1"><i class="fa fa-github fa-lg"></i></a>
+                    </p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <div class="video-container">
+                        <iframe width="480" height="296" src="https://www.youtube.com/embed/QV0unBpJ5Ek" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.content-section-b -->
+
+    <div class="content-section-a">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Fractal Jigsaw Puzzle</h2>
+                    <p class="lead">
+                        A jigsaw puzzle made of smaller jigsaw puzzles.
+                        <a href="https://thatmichaelpark.github.io/fractal-jigsaw-puzzle">Play puzzle</a>.
+                    </p>
+                    <p>HTML/CSS/JavaScript.</p>
+                    <p>
+                        <a href="https://github.com/thatmichaelpark/fractal-jigsaw-puzzle"><i class="fa fa-github fa-lg"></i></a>
+                    </p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <div class="video-container">
+                        <iframe width="480" height="296" src="https://www.youtube.com/embed/wPkFDSmEy2g" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.content-section-a -->
+
+    <div class="content-section-b">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Gadgetina</h2>
+                    <p class="lead">
+                        A homebrew musical keyboard/MIDI controller based on the Wicki-Hayden key layout.
+                        <a href="http://gadgetina.com">More information</a>.
+                    </p>
+                    <p>P8X32A microcontroller. Custom printed circuit boards. Custom enclosure.</p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <div class="video-container">
+                        <iframe width="480" height="296" src="https://www.youtube.com/embed/fQPUzpn7mFg" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.content-section-b -->
+
+    <div class="content-section-a">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Sphinx:<br>Self-hosted Spin Compiler</h2>
+                    <p class="lead">
+                        A compiler for the Spin language (the native language of the P8X32A microcontroller). The compiler is notable in that it runs on the microcontroller itself.
+                        <a href="http://sphinxcompiler.com">More information</a>.
+                    </p>
+                    <p class="lead">This project won 3rd Place in the Propeller Design Contest 2009-2010.</p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.content-section-a -->
+
+    <!-- <div class="content-section-a">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- /.content-section-a -->
+
+    <!-- <div class="content-section-b">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- /.content-section-b -->
+
+
+
+	<a  name="contact"></a>
+    <div class="banner">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Connect to Michael Park:</h2>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="list-inline banner-social-buttons">
+                        <li>
+                            <a href="mailto:thatmichaelpark@gmail.com" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw"></i> <span class="network-name">Email</span></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/thatmichaelpark" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/thatmichaelpark" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.banner -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#projects">Projects</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted small">Landing Page template by Blackrock Digital</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
 </html>
