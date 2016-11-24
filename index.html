@@ -30,6 +30,11 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <style media="screen">
+      .hidden {
+        display: none;
+      }
+    </style>
 </head>
 
 <body>
@@ -120,247 +125,39 @@
 
     <!-- Page Content -->
 
-	  <a  name="projects"></a>
+	  <a name="projects"></a>
 
-    <div class="content-section-a">
+    <div id="projects"></div>
+
+    <div id="template-a" class="content-section-a hidden">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5 col-sm-6">
+                <div class="content-text col-lg-5 col-sm-6">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Undulating Jigsaw Puzzles</h2>
-                    <p class="lead">
-                        In these puzzles, the pieces have undulating edges.
-                        <a href="https://thatmichaelpark-nqj.herokuapp.com">Play puzzle</a>.
-                    </p>
-                    <p>
-                        HTML/CSS/JavaScript. React. Node. Express. PostgreSQL.
-                    </p>
-                    <p>
-                        <a href="https://github.com/thatmichaelpark/undulating-jigsaw-puzzle"><i class="fa fa-github fa-lg"></i></a>
-                    </p>
+
                 </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" width="480" height="296" src="https://www.youtube.com/embed/RrGJ9eWP-EI" allowfullscreen></iframe>
-                    </div>
+                <div class="content-img col-lg-5 col-lg-offset-2 col-sm-6">
+
                 </div>
             </div>
         </div>
     </div>
     <!-- /.content-section-a -->
 
-    <div class="content-section-b">
+    <div id="template-b" class="content-section-b hidden">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Undulating Jigsaw Puzzle Editor</h2>
-                    <p class="lead">
-                        A desktop application for editing undulating jigsaw puzzles.
-                    </p>
-                    <p>
-                        HTML/CSS/JavaScript. Angular. Node. Electron.
-                    </p>
-                    <p>
-                        <a href="https://github.com/thatmichaelpark/undulating-jigsaw-editor"><i class="fa fa-github fa-lg"></i></a>
-                    </p>
-                </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" width="480" height="296" src="https://www.youtube.com/embed/ygPgN7u37EM" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- /.content-section-b -->
-
-    <div class="content-section-a">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Baobab:<br>Family Tree Viewer</h2>
-                    <p class="lead">Keep track of relatives near and distant. In this two-person project, I created the tree-drawing algorithm, which handles single-parent and half-sibling cases.</p>
-                    <p>HTML/CSS/JavaScript. jQuery. Node. Express. PostgreSQL.</p>
-                    <p>
-                        <a href="https://github.com/thatmichaelpark/family-tree"><i class="fa fa-github fa-lg"></i></a>
-                    </p>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/baobab.png" alt="Baobab family tree">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- /.content-section-a -->
-
-    <div class="content-section-b">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Beets:<br>Multi-user Drum Machine</h2>
-                    <p class="lead">Collaborative beat-making in your web browser. As part of a three-person team, I was responsible for the drum machine functionality and multiuser communication.</p>
-                    <p>HTML/CSS/JavaScript. React. Web Audio. Socket.io. Node. Express. PostgreSQL.</p>
-                    <p>
-                        <a href="https://github.com/thatmichaelpark/beets"><i class="fa fa-github fa-lg"></i></a>
-                    </p>
-                </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" width="480" height="296" src="https://www.youtube.com/embed/ItJiqlKAsFc" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- /.content-section-b -->
-
-    <div class="content-section-a">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Sliding Tile Puzzle</h2>
-                    <p class="lead">
-                        Sliding tile puzzle with pictures provided by the Flickr API.
-                        <a href="http://thatmichaelpark-sliding-puzzle.surge.sh/#!">Play puzzle</a>.
-                    </p>
-                    <p>HTML/CSS/JavaScript. jQuery. jQuery-UI.</p>
-                    <p>
-                        <a href="https://github.com/thatmichaelpark/sliding-tile-puzzle"><i class="fa fa-github fa-lg"></i></a>
-                    </p>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/slidingtilepuzzle.png" alt="Sliding Tile Puzzle" />
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- /.content-section-a -->
-
-    <div class="content-section-b">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Battle-Z1</h2>
-                    <p class="lead">
-                        Multiplayer tank game with Battlezone-inspired graphics. Optional Arduino-powered analog control sticks.
-                    </p>
-                    <p>HTML/CSS/JavaScript. Socket.io. Node. Express. Johnny-Five. Arduino.</p>
-                    <p>
-                        <a href="https://github.com/thatmichaelpark/battle-z1"><i class="fa fa-github fa-lg"></i></a>
-                    </p>
-                </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" width="480" height="296" src="https://www.youtube.com/embed/QV0unBpJ5Ek" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- /.content-section-b -->
-
-    <div class="content-section-a">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Fractal Jigsaw Puzzle</h2>
-                    <p class="lead">
-                        A jigsaw puzzle made of smaller jigsaw puzzles.
-                        <a href="https://thatmichaelpark.github.io/fractal-jigsaw-puzzle">Play puzzle</a>.
-                    </p>
-                    <p>HTML/CSS/JavaScript.</p>
-                    <p>
-                        <a href="https://github.com/thatmichaelpark/fractal-jigsaw-puzzle"><i class="fa fa-github fa-lg"></i></a>
-                    </p>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" width="480" height="296" src="https://www.youtube.com/embed/wPkFDSmEy2g" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- /.content-section-a -->
-
-    <div class="content-section-b">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Gadgetina</h2>
-                    <p class="lead">
-                        A homebrew musical keyboard/MIDI controller based on the Wicki-Hayden key layout.
-                        <a href="http://gadgetina.com">More information</a>.
-                    </p>
-                    <p>P8X32A microcontroller. Custom printed circuit boards. Custom enclosure.</p>
-                </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <div class="embed-responsive embed-responsive-4by3">
-                        <iframe class="embed-responsive-item" width="480" height="296" src="https://www.youtube.com/embed/fQPUzpn7mFg" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- /.content-section-b -->
-
-    <div class="content-section-a">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Sphinx:<br>Self-hosted Spin Compiler</h2>
-                    <p class="lead">
-                        A compiler for the Spin language (the native language of the P8X32A microcontroller). The compiler is notable in that it runs on the microcontroller itself.
-                        <a href="http://sphinxcompiler.com">More information</a>.
-                    </p>
-                    <p class="lead">This project won 3rd Place in the Propeller Design Contest 2009-2010.</p>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/kitten.jpeg" alt="Just a kitten" />
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- /.content-section-a -->
-
-    <!-- <div class="content-section-a">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
+                <div class="content-text col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
 
                 </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                <div class="content-img col-lg-5 col-sm-pull-6  col-sm-6">
 
                 </div>
             </div>
         </div>
-    </div> -->
-    <!-- /.content-section-a -->
-
-    <!-- <div class="content-section-b">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-
-                </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-
-                </div>
-            </div>
-        </div>
-    </div> -->
+    </div>
     <!-- /.content-section-b -->
 
 
@@ -431,8 +228,141 @@
 
     <script>
       $(function () {
-        var i = 0;
-        var ings = ['Aspiring', 'Perspiring', 'Aspiring', 'Respiring', 'Aspiring', 'Inspiring', 'Aspiring', 'Conspiring'];
+        const contents = [
+          {
+            text: `
+              <h2 class="section-heading">Undulating Jigsaw Puzzles</h2>
+              <p class="lead">
+                  In these puzzles, the pieces have undulating edges.
+                  <a href="https://thatmichaelpark-nqj.herokuapp.com">Play puzzle</a>.
+              </p>
+              <p>
+                  HTML/CSS/JavaScript. React. Node. Express. PostgreSQL.
+              </p>
+              <p>
+                  <a href="https://github.com/thatmichaelpark/undulating-jigsaw-puzzle"><i class="fa fa-github fa-lg"></i></a>
+              </p>`,
+            img: `
+              <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" width="480" height="296" src="https://www.youtube.com/embed/RrGJ9eWP-EI" allowfullscreen></iframe>
+              </div>`
+          }, {
+            text: `
+              <h2 class="section-heading">Undulating Jigsaw Puzzle Editor</h2>
+              <p class="lead">
+                  A desktop application for editing undulating jigsaw puzzles.
+              </p>
+              <p>
+                  HTML/CSS/JavaScript. Angular. Node. Electron.
+              </p>
+              <p>
+                  <a href="https://github.com/thatmichaelpark/undulating-jigsaw-editor"><i class="fa fa-github fa-lg"></i></a>
+              </p>`,
+            img: `
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" width="480" height="296" src="https://www.youtube.com/embed/ygPgN7u37EM" allowfullscreen></iframe>
+            </div>`
+          }, {
+            text: `
+              <h2 class="section-heading">Baobab:<br>Family Tree Viewer</h2>
+              <p class="lead">Keep track of relatives near and distant. In this two-person project, I created the tree-drawing algorithm, which handles single-parent and half-sibling cases.</p>
+              <p>HTML/CSS/JavaScript. jQuery. Node. Express. PostgreSQL.</p>
+              <p>
+                  <a href="https://github.com/thatmichaelpark/family-tree"><i class="fa fa-github fa-lg"></i></a>
+              </p>`,
+            img: `
+              <img class="img-responsive" src="img/baobab.png" alt="Baobab family tree">`
+          }, {
+            text: `
+              <h2 class="section-heading">Beets:<br>Multi-user Drum Machine</h2>
+              <p class="lead">Collaborative beat-making in your web browser. As part of a three-person team, I was responsible for the drum machine functionality and multiuser communication.</p>
+              <p>HTML/CSS/JavaScript. React. Web Audio. Socket.io. Node. Express. PostgreSQL.</p>
+              <p>
+                  <a href="https://github.com/thatmichaelpark/beets"><i class="fa fa-github fa-lg"></i></a>
+              </p>`,
+            img: `
+              <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" width="480" height="296" src="https://www.youtube.com/embed/ItJiqlKAsFc" allowfullscreen></iframe>
+              </div>`
+          }, {
+            text: `
+              <h2 class="section-heading">Sliding Tile Puzzle</h2>
+              <p class="lead">
+                  Sliding tile puzzle with pictures provided by the Flickr API.
+                  <a href="http://thatmichaelpark-sliding-puzzle.surge.sh/#!">Play puzzle</a>.
+              </p>
+              <p>HTML/CSS/JavaScript. jQuery. jQuery-UI.</p>
+              <p>
+                  <a href="https://github.com/thatmichaelpark/sliding-tile-puzzle"><i class="fa fa-github fa-lg"></i></a>
+              </p>`,
+            img: `
+              <img class="img-responsive" src="img/slidingtilepuzzle.png" alt="Sliding Tile Puzzle" />`
+          }, {
+            text: `
+              <h2 class="section-heading">Battle-Z1</h2>
+              <p class="lead">
+                  Multiplayer tank game with Battlezone-inspired graphics. Optional Arduino-powered analog control sticks.
+              </p>
+              <p>HTML/CSS/JavaScript. Socket.io. Node. Express. Johnny-Five. Arduino.</p>
+              <p>
+                  <a href="https://github.com/thatmichaelpark/battle-z1"><i class="fa fa-github fa-lg"></i></a>
+              </p>`,
+            img: `
+              <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" width="480" height="296" src="https://www.youtube.com/embed/QV0unBpJ5Ek" allowfullscreen></iframe>
+              </div>`
+          }, {
+            text: `
+              <h2 class="section-heading">Fractal Jigsaw Puzzle</h2>
+              <p class="lead">
+                  A jigsaw puzzle made of smaller jigsaw puzzles.
+                  <a href="https://thatmichaelpark.github.io/fractal-jigsaw-puzzle">Play puzzle</a>.
+              </p>
+              <p>HTML/CSS/JavaScript.</p>
+              <p>
+                  <a href="https://github.com/thatmichaelpark/fractal-jigsaw-puzzle"><i class="fa fa-github fa-lg"></i></a>
+              </p>`,
+            img: `
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" width="480" height="296" src="https://www.youtube.com/embed/wPkFDSmEy2g" allowfullscreen></iframe>
+            </div>`
+          }, {
+            text: `
+              <h2 class="section-heading">Gadgetina</h2>
+              <p class="lead">
+                  A homebrew musical keyboard/MIDI controller based on the Wicki-Hayden key layout.
+                  <a href="http://gadgetina.com">More information</a>.
+              </p>
+              <p>P8X32A microcontroller. Custom printed circuit boards. Custom enclosure.</p>`,
+            img: `
+              <div class="embed-responsive embed-responsive-4by3">
+                  <iframe class="embed-responsive-item" width="480" height="296" src="https://www.youtube.com/embed/fQPUzpn7mFg" allowfullscreen></iframe>
+              </div>`
+          }, {
+            text: `
+              <h2 class="section-heading">Sphinx:<br>Self-hosted Spin Compiler</h2>
+              <p class="lead">
+                  A compiler for the Spin language (the native language of the P8X32A microcontroller). The compiler is notable in that it runs on the microcontroller itself.
+                  <a href="http://sphinxcompiler.com">More information</a>.
+              </p>
+              <p class="lead">This project won 3rd Place in the Propeller Design Contest 2009-2010.</p>`,
+            img: `
+              <img class="img-responsive" src="img/kitten.jpeg" alt="Just a kitten" />`
+          }
+        ];
+        let f = true;
+        for (const content of contents) {
+          const template = $(f ? '#template-a' : '#template-b')
+            .clone().removeAttr('id').removeClass('hidden');
+          template.find('.content-text').append($(content.text));
+          template.find('.content-img').append($(content.img));
+
+          template.appendTo('#projects');
+          f = !f;
+        }
+
+        let i = 0;
+        const ings = ['Aspiring', 'Perspiring', 'Aspiring', 'Respiring', 'Aspiring', 'Inspiring', 'Aspiring', 'Conspiring'];
         setInterval(function () {
           $('.intro-message h3').text(ings[i++] + ' Web Developer');
           i %= ings.length;
