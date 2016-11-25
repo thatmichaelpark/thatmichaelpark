@@ -353,10 +353,10 @@
         for (const content of contents) {
           const template = $(f ? '#template-a' : '#template-b')
             .clone().removeAttr('id').removeClass('hidden');
-          template.find('.content-text').append($(content.text));
-          template.find('.content-img').append($(content.img));
-
+          template.find('.content-text').append(content.text);
+          template.find('.content-img').append(content.img);
           template.appendTo('#projects');
+
           f = !f;
         }
 
